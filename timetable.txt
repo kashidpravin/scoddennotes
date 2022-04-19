@@ -1,0 +1,11 @@
+Morning 
+6 to 7 ---ETL
+7 to 8 --- Python
+9 to 12 am --- ETL
+12 – 1 pm break 
+1 to 3 --- SQL
+3 to 4 – break
+4 to 6 --  theory reading BI/ETL/SQL
+6 to 8 –ETL
+8 to 11 – practice SQL
+
