@@ -1,0 +1,113 @@
+Businees Intelligence (BI) Testing
+
+Tool: Tableau
+
+How to install Tableau
+step 1 : Go to below URL
+https://drive.google.com/drive/u/2/folders/1Avjh5n1OAcH2OS0MegENzfSgiN8TCTEg
+
+step 2 : download set up file and run it.
+
+step 3 : download tabui.dll file and replace or paste in below location
+
+C:\Program Files\Tableau\Tableau 2019.3\bin
+
+step 4 : close all th paths and go to strat menu & type tableau and open.
+
+why we need BI testing?
+
+source : DWH or .xlsx,.txt etc
+
+Target : Reports
+
+Tableau:
+Tableau is powerful data visualization tool used in BI industry.
+It simplifies the raw data into  understable format.
+It visualize and creates interactive, sharable dashboards.
+It is not required any technical or programming skill.
+
+Main features:
+1.Data Blendding - excel - a zone and DB -b zone ==AB and create report in Tableau - 
+2.Real time analysis
+3.Collabration data 
+
+Tableau tools
+1.Tableau desktop
+2.Tableau server
+3.Tableau public
+4.Tableau Online
+5.Tableau reader.
+
+Tableau Terminology:
+1.BOOKMARK: A.tbm(tableaubook mark) document in the folder in the tableau.
+2.WORKBOOK : 
+3.Dashboard:
+4.Data source page : 
+5.Worksheet
+6.Dimensions
+7.Measures(facts)
+8.Filter Shelf
+9.Page shelf
+10.Mark
+
+Tableau Data Types :
+1.Numeric values  #
+2.Text value -Abc  
+3.Date and Time values - Watch symbol
+4.Date Values - Calender
+5.Boolean Values T/F
+6.Geographic value - World symbol
+
+Tableau Testing Documnet:
+1.SRS/BRS document
+2.Data usage sheet(Specifies attribute/column details about the report)
+3.Report Wireframe (Blue print of report)
+4.Data Smaple sheet -optinal (what kind of data should have in column)
+5.Mapping sheet
+
+
+Test scenarios 
+Test scenarios is nothing but permutation and combination
+
+suppose if i need to test 10 report 
+1.Report Download
+2.Compare report against wireframe 
+3.Report Logic 
+4.Report attributes/columns validation
+5.Rpeort count validation.
+6.Duplicate Validation.
+7.Report completness
+ > whether it has picked all the attributes as per requirement
+ > Count no of records present in report against Source(DWH/other sources)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

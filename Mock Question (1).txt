@@ -1,0 +1,33 @@
+Q1. Differrance between subquery and corelational query
+Q2. Write query to time upcoming friday
+Q3. Diff between rank and  dense_rank
+Q4. How to display bottom 5 from records
+Q5. What is diff between alter and update
+Q6. How to disply dept wise min salary
+Q7. Diff between  DCL and TCL
+Q8. How to display the city name not equal to vowels
+Q9. How to display the city name not equal to vowels by using substring
+Q10. Write the query update all employee salary by 10
+Q11. How to display the duplicate records
+Q12. Diff between in-not in-exists
+Q13. what is diff between inner join and equi join
+Q14. Explain set operator
+Q15. How to display name whose first and last character is T
+Q16. How willyou identify, how many records are missinging target system as compared to source system
+Q17. Display the 4th highest salary using subquery and dense_rank 
+Q18. How to fetch common records from 2 or more tables
+Q19. List student name who are living in same city
+Q20. What is diff between 'where and having'?
+Q21. How to calculate count of employee  from each dept?
+Q22. If you have yearly salary then how to display the monthly salar
+Q23. Display the the dept wise rank salary.
+Q24. Find the sum salary of each dept and order by desc?
+Q25. Query to join 5 tables.
+Q26. Find the avg salary of each dept and order by desc
+Q27. Write down correct Query 
+Q28. Create table where you can enter the data only having marks greater than 40
+Q29. Display student name who are out of maharashtra and using language hindi and english
+Q30. Extract 5 character from the name ex Praveen
+Q31. Table1 - 1,2,2,null
+     Table2 - 2,3,4,null,null
+Q32. What is distinct and Group by.

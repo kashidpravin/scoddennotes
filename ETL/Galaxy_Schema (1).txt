@@ -1,0 +1,17 @@
+-- galaxy schema
+create table dimen_01 (f_id int primary key, ename varchar(10));
+create table dimen_02 (s_id int primary key, ename varchar(10));
+create table dimen_03 (t_id int primary key, ename varchar (10));
+create table dimen_04 (fo_id int primary key, ename varchar (10));
+create table dimen_05 (fi_id int primary key, ename varchar (10),f_id int foreign key references dimen_01 (f_id));
+create table dimen_06 (si_id int primary key, ename varchar (10));
+create table dimen_07 (se_id int primary key, ename varchar (10));
+create table dimen_08 (e_id int primary key, ename varchar (10));
+create table dimen_09 (n_id int primary key, ename varchar (10));
+
+create table fact_01 (fact_id int primary key, ename varchar (10),
+f_id int foreign key references dimen_01 (f_id),s_id int foreign key references dimen_02 (s_id),
+t_id int foreign key references dimen_03 (t_id),fo_id int foreign key references dimen_04 (fo_id));
+create table fact_02 (fact_id int primary key, ename varchar (10),f_id int foreign key references dimen_01(f_id),
+si_id int foreign key references dimen_06 (si_id),se_id int foreign key references dimen_07 (se_id),
+e_id int foreign key references dimen_08 (e_id),n_id int foreign key references dimen_09 (n_id));

@@ -1,0 +1,11 @@
+-- star schema
+create table dim_01 (f_id int primary key, ename varchar (10));
+create table dim_02 (s_id int primary key, ename varchar (10));
+create table dim_03 (t_id int primary key, ename varchar (10));
+create table dim_04 (fo_id int primary key, ename varchar(10));
+
+create table fac_01 (fac_id int primary key, ename varchar(10),
+f_id int foreign key references dim_01 (f_id),
+s_id int foreign key references dim_02 (s_id),
+t_id int foreign key references dim_03 (t_id),
+fo_id int foreign key references dim_04 (fo_id));
